@@ -1,11 +1,14 @@
 aside{
 
-width: 316px;
+min-width: 316px;
+max-width: 316px;
+max-height: 399px;
 
-margin-left: 20%;
-margin-top: 100px;
+margin-left: 20px;
+margin-right: 20px;;
+/*margin-top: 100px;*/
 background: black;
-padding-bottom: 75px;
+padding-bottom: 125px;
 
 font-family: 'Gafata', sans-serif;
 font-size: 1.1em;
@@ -22,12 +25,12 @@ font-size: 1.1em;
 
 #profile{
 
-  max-width: 111px  ;
+  /*max-width: 111px  ;*/
   width: 35%;
   margin: 0px auto;
   display: block;
   border-radius: 50%;
-  border: 4px solid #ebbd8d;
+  border: 4px solid #EBBD8D;
   padding: 13px;
   position: relative;
   bottom: 40px;
@@ -38,7 +41,7 @@ font-size: 1.1em;
 aside h1{
 
 text-align: center;
-color: #fafada;
+color: #FAFADA;
 margin-top: 0px;
 position: relative;
 bottom: 20px;
@@ -74,9 +77,78 @@ h2{
 
 }
 
+.navbar{
+
+  font-family: 'Gafata', sans-serif;
+  font-size: 0.75em;
+  background: #EBBD8D;
+  width: 65px;
+  height: 325px;
+  margin-top: 25px;
+  opacity: 0.5;
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+
+}
+
+.navbar a{
+
+  width: 45px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  
+  text-align: center;
+  padding: 10px 10px;
+  color: #524038;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.navbar a img{
+
+  padding: 5px;
+  filter: invert(24%) sepia(35%) saturate(342%) hue-rotate(333deg) brightness(93%) contrast(90%);
+
+}
+
 body{
 
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  background: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  }
+
+main{
+
+  max-width: 60%;
+  padding: 20px;  
+  margin-top: 25px;
+
+  color: #FAFADA;
+  background: black;
+  opacity: 0.6;
+  
+}
+
+main img{
+
+max-width: 90%;
 
 }
 
