@@ -1,0 +1,60 @@
+aside{
+
+min-width: 316px;
+width: 25%;
+margin-left: 20%;
+margin-top: 100px;
+background: black;
+padding-bottom: 100px;
+
+
+}
+
+#inset{
+
+  width: 100%;
+  margin: 0px auto;
+  display: block;
+  
+
+}
+
+#profile{
+
+  width: 35%;
+  margin: 0px auto;
+  display: block;
+  
+
+}
+
+aside h1{
+
+text-align: center;
+color: #fafada;
+
+
+}
+
+aside nav{
+
+   
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+
+aside nav a{
+
+  margin: 0px 2%;
+
+}
+
+.icon1{
+
+  filter: invert(93%) sepia(4%) saturate(1577%) hue-rotate(26deg) brightness(114%) contrast(96%);
+}
+
+
+
