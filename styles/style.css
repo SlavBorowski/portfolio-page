@@ -5,3 +5,7 @@
 @import "./navbar.css";
 @import "./form.css";
 @import "./profilecard.css";
+
+/* screen sizes */
+@import "./mobile.css";
+@import "./tablet.css";
