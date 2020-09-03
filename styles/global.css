@@ -4,11 +4,14 @@ min-width: 316px;
 max-width: 316px;
 max-height: 399px;
 
-margin-left: 20px;
+margin-left: 90px;
 margin-right: 20px;;
-/*margin-top: 100px;*/
 background: black;
 padding-bottom: 125px;
+
+border-radius: 15px;
+
+position: fixed;
 
 font-family: 'Gafata', sans-serif;
 font-size: 1.1em;
@@ -20,6 +23,7 @@ font-size: 1.1em;
   width: 100%;
   margin: 0px auto;
   display: block;
+  border-radius: 15px;
   
 }
 
@@ -71,6 +75,8 @@ aside nav a{
 
 }
 
+
+
 h2{
 
   font-family: 'Gafata', sans-serif;
@@ -81,17 +87,20 @@ h2{
 
   font-family: 'Gafata', sans-serif;
   font-size: 0.75em;
-  background: #EBBD8D;
+  background:rgba(235,189,141,0.4);
   width: 65px;
   height: 325px;
   margin-top: 25px;
-  opacity: 0.5;
 
+  border-radius: 7px;
+  
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  position: fixed;
+ 
   
 
 }
@@ -125,12 +134,14 @@ body{
   display: flex;
   flex-wrap: nowrap;
   margin-top: 100px;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-right: 15%;
+
 
   background: url(../images/background.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
 
   }
 
@@ -141,22 +152,63 @@ main{
   margin-top: 25px;
 
   color: #FAFADA;
-  background: black;
-  opacity: 0.6;
-  
+  background: rgba(0,0,0,0.6);
+
+  border-radius: 15px;;
+
+  position: relative;
+  left: 430px;
+    
 }
 
 main img{
 
 max-width: 90%;
+margin: 0px 5%;
+
+}
+
+article{
+
+  margin: 15px 0px;
+  padding: 10px;
+  border: 3px solid #EBBD8D;
+  border-radius: 15px;
+
+}
+
+.icon2{
+
+  filter: invert(93%) sepia(4%) saturate(1577%) hue-rotate(26deg) brightness(114%) contrast(96%);
+  transform: scale(2.0);
+
+}
+
+div{
+
+/*height: 85vh;*/
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
 
 }
 
 footer{
 
   font-family: 'Montserrat', sans-serif;
+  color: #EBBD8D;
+  background: black;
+  border-radius: 7px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top:50%;
+  opacity: 0.4;
+  
 
 }
+
 
 
 
