@@ -1,132 +1,10 @@
-aside{
-
-min-width: 316px;
-max-width: 316px;
-max-height: 399px;
-
-margin-left: 90px;
-margin-right: 20px;;
-background: black;
-padding-bottom: 125px;
-
-border-radius: 15px;
-
-position: fixed;
-
-font-family: 'Gafata', sans-serif;
-font-size: 1.1em;
-
-}
-
-#inset{
-
-  width: 100%;
-  margin: 0px auto;
-  display: block;
-  border-radius: 15px;
-  
-}
-
-#profile{
-
-  /*max-width: 111px  ;*/
-  width: 35%;
-  margin: 0px auto;
-  display: block;
-  border-radius: 50%;
-  border: 4px solid #EBBD8D;
-  padding: 13px;
-  position: relative;
-  bottom: 40px;
-  background-color: black;
-  
-}
-
-aside h1{
-
-text-align: center;
-color: #FAFADA;
-margin-top: 0px;
-position: relative;
-bottom: 20px;
-
-}
-
-aside nav{
-   
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  position: relative;
-  bottom: 30px;
-
-}
-
-aside nav a{
-
-  margin: 0px 2%;
-
-}
-
-.icon1{
-
-  filter: invert(93%) sepia(4%) saturate(1577%) hue-rotate(26deg) brightness(114%) contrast(96%);
-  width: 15px;
-
-}
-
-
-
 h2{
 
   font-family: 'Gafata', sans-serif;
 
 }
 
-.navbar{
 
-  font-family: 'Gafata', sans-serif;
-  font-size: 0.75em;
-  background:rgba(235,189,141,0.4);
-  width: 65px;
-  height: 325px;
-  margin-top: 25px;
-
-  border-radius: 7px;
-  
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  position: fixed;
- 
-  
-
-}
-
-.navbar a{
-
-  width: 45px;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  align-items: center;
-  
-  text-align: center;
-  padding: 10px 10px;
-  color: #524038;
-  text-decoration: none;
-  font-weight: bold;
-
-}
-
-.navbar a img{
-
-  padding: 5px;
-  filter: invert(24%) sepia(35%) saturate(342%) hue-rotate(333deg) brightness(93%) contrast(90%);
-
-}
 
 body{
 
@@ -180,16 +58,17 @@ article{
 .icon2{
 
   filter: invert(93%) sepia(4%) saturate(1577%) hue-rotate(26deg) brightness(114%) contrast(96%);
-  transform: scale(2.0);
+  width: 44px;
 
 }
 
 div{
 
-/*height: 85vh;*/
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
 
 
 }
@@ -203,9 +82,8 @@ footer{
   display: flex;
   justify-content: flex-end;
   padding-right: 50px;
-  margin-top:50%;
+  margin-top: 25%;
   opacity: 0.4;
-  
 
 }
 

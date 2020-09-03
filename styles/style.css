@@ -2,7 +2,6 @@
 @import "./global.css";
 
 /* components */
-@import "./profile.css";
+@import "./navbar.css";
 @import "./form.css";
-@import "./blog.css";
-@import "./projects.css";
+@import "./profilecard.css";
