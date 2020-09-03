@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 960px) {
  
   .navbar{
 
@@ -8,6 +8,7 @@
     margin: 0px;
     background:rgb(235,189,141);
     z-index: 1;
+    border-radius: 0px;
     
 
   }
@@ -31,11 +32,19 @@
   aside{
 
     position: static;
-    margin: 90px auto 65%;
+    margin: 90px auto 35px;
     min-width: 95%;
     max-width: 95%;
-    padding-bottom: 145px;
+    padding-bottom: 40%;
 
+  }
+
+  #profile{
+  
+  
+    max-width: 130px;
+    
+    
   }
 
 }
