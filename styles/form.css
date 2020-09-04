@@ -1,3 +1,4 @@
+/* Set properties of all form components on contact page */
 form{
 
   display: flex;
@@ -49,6 +50,7 @@ button{
 
 }
 
+/* Set colour and size of svg icons */
 .icon3 img{
 
   filter: invert(93%) sepia(4%) saturate(1577%) hue-rotate(26deg) brightness(114%) contrast(96%);
@@ -57,6 +59,7 @@ button{
 
 }
 
+/* Set spacing between lare icons on contact page*/
 .social{
 
   display: flex;

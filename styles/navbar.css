@@ -1,3 +1,4 @@
+/* Set properties and position of navbar */
 .navbar{
 
   font-family: 'Gafata', sans-serif;
@@ -21,6 +22,7 @@
 
 }
 
+/* Set properties of navbar buttons */
 .navbar a{
 
   width: 45px;
@@ -37,6 +39,7 @@
 
 }
 
+/* Set colour and padding of navbar icons */
 .navbar a img{
 
   padding: 5px;

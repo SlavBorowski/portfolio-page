@@ -1,3 +1,4 @@
+/* Set properties and position of small business card component */
 aside{
 
   min-width: 316px;
@@ -18,6 +19,7 @@ aside{
   
   }
   
+  /* Set properties of small landscape photo above portrait */
   #inset{
   
     width: 100%;
@@ -27,6 +29,7 @@ aside{
     
   }
   
+  /* Set properties of portrait photo */
   #profile{
   
     width: 35%;
@@ -42,6 +45,7 @@ aside{
     
   }
   
+  /* Set properties of ny name */
   aside h1{
   
   text-align: center;
@@ -52,6 +56,7 @@ aside{
   
   }
   
+  /* Set properties of small icons under portrait*/
   aside nav{
      
     display: flex;
@@ -68,6 +73,7 @@ aside{
   
   }
   
+  /* Set colour and size of svg icons below portrait */
   .icon1{
   
     filter: invert(93%) sepia(4%) saturate(1577%) hue-rotate(26deg) brightness(114%) contrast(96%);

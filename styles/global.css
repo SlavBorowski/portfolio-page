@@ -1,11 +1,11 @@
+/* Set font for heading on each page */
 h2{
 
   font-family: 'Gafata', sans-serif;
 
 }
 
-
-
+/* Set properties for body including nackground image */
 body{
 
   font-family: 'Montserrat', sans-serif;
@@ -23,6 +23,7 @@ body{
 
   }
 
+/* Set properties and position of main container on each page */
 main{
 
   max-width: 60%;
@@ -40,6 +41,7 @@ main{
     
 }
 
+/* Set size of images used in main articles */
 main img{
 
 max-width: 90%;
@@ -47,6 +49,7 @@ margin: 0px 5%;
 
 }
 
+/* Set propertise of articles */
 article{
 
   margin: 15px 0px;
@@ -56,6 +59,7 @@ article{
 
 }
 
+/* Set colour and properties of github icons in project articles */
 .icon2{
 
   filter: invert(93%) sepia(4%) saturate(1577%) hue-rotate(26deg) brightness(114%) contrast(96%);
@@ -63,6 +67,7 @@ article{
 
 }
 
+/* Use div to position footer at bottom of screen */
 div{
 
   display: flex;
@@ -71,6 +76,7 @@ div{
   
 }
 
+/* Set footer properties */
 footer{
 
   font-family: 'Montserrat', sans-serif;

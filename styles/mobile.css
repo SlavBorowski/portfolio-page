@@ -1,5 +1,7 @@
+/* Set responsive design properties */
 @media only screen and (max-width: 960px) {
- 
+  
+  /* Change navbar to horizontal position and full-screen width */
   .navbar{
 
     flex-direction: row;
@@ -13,6 +15,7 @@
 
   }
 
+  /* Main and Body moved to left edge and adjust width to fit screen */
   main{
 
    position: static;
@@ -29,6 +32,7 @@
 
   }
 
+  /* Mov busines card component to lef edge and no longer fixed in position */
   aside{
 
     position: static;
@@ -39,6 +43,7 @@
 
   }
 
+  /* Ensure portrait doesn't grow too big with screen size changes */
   #profile{
   
   
